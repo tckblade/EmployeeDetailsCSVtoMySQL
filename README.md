@@ -11,4 +11,5 @@ persist in the program.  Now you will be able to use queries in Java to efficien
 which is done by executing an updated query to pass along all the employee objects in the HashMap to the database.
 
 # Prerequisite:
-You will need a Relational database in MySQL workbench with a table of the corresponding columns for the employee details. An example is inside the `Employee Details SQL Table Schema.txt` file.
+1. You will need a Relational database in MySQL workbench with a table of the corresponding columns for the employee details. An example is inside the `Employee Details SQL Table Schema.txt` file.
+2. When you install MySQL workbench you will be asked to create a root admin password, you will need to add the password into the interface class called `Password` before any attempts of making a connection to the database are made. 

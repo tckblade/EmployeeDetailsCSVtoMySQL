@@ -1,0 +1,12 @@
+CREATE TABLE employeedetailsDetails (
+    employee_ID varchar(6) PRIMARY KEY,
+    namePrefix varchar(6),
+    firstName varchar(255),
+    middleInitial CHAR(1),
+    LastName varchar(255),
+    gender CHAR(1),
+    email varchar(45),
+    dateOfBirth date,
+    dateOfJoining date,
+    salary int(10)
+);
